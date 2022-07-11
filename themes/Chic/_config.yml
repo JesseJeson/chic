@@ -4,7 +4,7 @@ navname: Histcat's Blog
 # navigatior items
 nav:
   文章: /archives
-  归档: /category
+  类别: /category
   标签: /tag
   关于: /about
 
