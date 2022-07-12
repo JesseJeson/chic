@@ -93,11 +93,12 @@
             <a class="next" rel="next" href="<%- url_for(post.next.path)%>"><%- post.next.title%></a>
             <% } %>
         </section>
+        <br>
         <div id="waline"></div>
             <script>
             Waline.init({
             el: '#waline',
-            serverURL: 'https://histcat.vercel.app',
+            serverURL: 'https://histcat-waline.vercel.app',
             });
         </script>
 
