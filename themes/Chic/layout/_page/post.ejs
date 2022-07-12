@@ -3,7 +3,11 @@
     <%if(theme.post_toc_enable && toc(page.content).length!==0){%>
         <%- partial('_partial/toc') %>
     <%}%>
-
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
     <%# article %>
     <article class="post-wrap">
         <header class="post-header">
@@ -89,7 +93,13 @@
             <a class="next" rel="next" href="<%- url_for(post.next.path)%>"><%- post.next.title%></a>
             <% } %>
         </section>
-
+        <div id="waline"></div>
+            <script>
+            Waline.init({
+            el: '#waline',
+            serverURL: 'https://histcat.vercel.app',
+            });
+        </script>
 
     </article>
 </div>
