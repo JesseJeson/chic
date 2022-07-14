@@ -5,4 +5,13 @@ tags:
 ---
 
 1. sort排序函数（重载符号也一样）返回true就是第一个在前，返回false就是第二个在前
+2. ```cpp
+   #include<iostream>
+   using namespace std;
+   
+   int main()
+   {
+       return 0;
+   }
+   ```
 
