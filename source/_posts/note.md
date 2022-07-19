@@ -5,13 +5,8 @@ tags:
 ---
 
 1. sort排序函数（重载符号也一样）返回true就是第一个在前，返回false就是第二个在前
- ```cpp
-   #include<iostream>
-   using namespace std;
-   
-   int main()
-   {
-       return 0;
-   }
-   ```
+2. 线段树build判断叶子节点后if内要返回
+3. 余数不能和函数的参数混
+4. 线段树query写洛谷深进的写法好理解（判断是否完全无交用或
+5. 关闭了输入输出流不能printf，scanf和cin，cout一块用
 
